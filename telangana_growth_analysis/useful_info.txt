@@ -1,0 +1,4 @@
+facts tables useful info
+	
+	there are 1472 data points / rows in the fact_stamp table
+	
