@@ -13,7 +13,8 @@ join dim_districts di #joining districts table
 using(dist_code)
 where d.fiscal_year between 2019 and 2022
 group by district
-order by total_rev_from_doc_gen
+order by total_rev_from_doc_gen desc
+
 limit 5
 ;
 
@@ -99,3 +100,9 @@ using(dist_code)
 join dim_date dt
 using(month);
 
+select 
+month ,
+sum(documents_registered_cnt) as total_docs_registered,
+sum(estamps_challans_cnt) as total_stamps_registered
+ from stamps
+ group by month;
