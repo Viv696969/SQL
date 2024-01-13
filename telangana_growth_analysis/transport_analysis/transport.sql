@@ -77,4 +77,62 @@ order by total_motor_agri_sold desc
 limit 10;
 
 
+-- List down the top 3 and bottom 3 districts that have shown the highest
+-- and lowest vehicle sales growth during FY 2022 compared to FY
+-- 2021? (Consider and compare categories: Petrol, Diesel and Electric)
+
+create temporary table transport_temp 
+as select month,fuel_type_diesel,fuel_type_petrol,fuel_type_electric,fiscal_year,district
+ from fact_transport
+ join dim_date d
+ using(month)
+ join dim_districts dis
+ using(dist_code);
+ 
+
+create temporary table transport_2021 as
+select
+district,
+sum(fuel_type_petrol) as petrol_sum_2021,
+sum(fuel_type_diesel) as diesel_sum_2021,
+sum(fuel_type_electric) as electric_sum_2021
+from transport_temp
+where fiscal_year=2021
+group by district;
+
+
+
+create temporary table transport_2022 as
+ select 
+
+district,
+sum(fuel_type_petrol) as petrol_sum_2022,
+sum(fuel_type_diesel) as diesel_sum_2022,
+sum(fuel_type_electric) as electric_sum_2022
+from transport_temp
+where fiscal_year=2022
+group by district;
+
+
+with cte as (
+select 
+district,
+sum(
+	petrol_sum_2021+diesel_sum_2021+electric_sum_2021
+) as total_2021,
+sum(
+	petrol_sum_2022+diesel_sum_2022+electric_sum_2022
+) as total_2022
+
+from transport_2021
+join transport_2022
+using(district)
+group by district
+)
+select 
+district,total_2021,total_2022
+ from cte
+ where total_2022>total_2021
+ order by total_2022 asc
+ limit 3;
 
