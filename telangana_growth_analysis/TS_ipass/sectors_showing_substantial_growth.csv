@@ -1,0 +1,56 @@
+sector,district,total_investment,rnk
+"Agro based incl Cold Storages",Siddipet,685.6028,1
+"Agro based incl Cold Storages",Medchal_Malkajgiri,373.106,2
+"Agro based incl Cold Storages",Narayanpet,62.902800000000006,3
+Automobile,Sangareddy,1289.909,1
+Automobile,Rangareddy,270.8881,2
+Automobile,Medchal_Malkajgiri,6.63,3
+Beverages,Wanaparthy,330,1
+Beverages,Vikarabad,50.75,2
+Beverages,Sangareddy,27.559000000000005,3
+"Cement, Cement & Concrete Products, Fly Ash Bricks",Suryapet,946.827,1
+"Cement, Cement & Concrete Products, Fly Ash Bricks",Rangareddy,100.757,2
+"Cement, Cement & Concrete Products, Fly Ash Bricks",Medchal_Malkajgiri,24.2586,3
+"Electrical and Electronic Products",Sangareddy,281.5919,1
+"Electrical and Electronic Products",Rangareddy,115.89230000000002,2
+"Electrical and Electronic Products",Medak,37.5934,3
+Engineering,Medak,658.7998,1
+Engineering,Rangareddy,507.00609999999995,2
+Engineering,Medchal_Malkajgiri,251.63520000000003,3
+"Fertlizers Organic and Inorganic,Pesticides,Insecticides, and Other Related",Sangareddy,16.6754,1
+"Fertlizers Organic and Inorganic,Pesticides,Insecticides, and Other Related","Yadadri Bhuvanagiri",13.244,2
+"Fertlizers Organic and Inorganic,Pesticides,Insecticides, and Other Related",Medchal_Malkajgiri,1.44,3
+"Food Processing",Nalgonda,275.0439,1
+"Food Processing",Sangareddy,142.07159999999996,2
+"Food Processing",Medchal_Malkajgiri,124.751,3
+"Granite and Stone Crushing",Rangareddy,577.1012000000001,1
+"Granite and Stone Crushing",Medchal_Malkajgiri,187.72189999999998,2
+"Granite and Stone Crushing",Karimnagar,44.8664,3
+"Industrial Parks and IT Buildings",Rangareddy,280.409,1
+Others,Rangareddy,385.34889999999996,1
+Others,Mahabubnagar,266.96270000000004,2
+Others,Medchal_Malkajgiri,141.2454,3
+"Paper and Printing","Bhadradri Kothagudem",962.3,1
+"Paper and Printing",Rangareddy,140.01420000000002,2
+"Paper and Printing","Yadadri Bhuvanagiri",43.93,3
+"Pharmaceuticals and Chemicals",Medchal_Malkajgiri,477.6875,1
+"Pharmaceuticals and Chemicals",Medak,428.84130000000005,2
+"Pharmaceuticals and Chemicals",Sangareddy,310.5069,3
+"Plastic and Rubber",Rangareddy,3819.4351,1
+"Plastic and Rubber",Sangareddy,1762.7238000000002,2
+"Plastic and Rubber",Medchal_Malkajgiri,129.71939999999998,3
+R&D,Medchal_Malkajgiri,938.2871,1
+R&D,Sangareddy,298.1275,2
+R&D,Mahabubnagar,137.4012,3
+"Real Estate,Industrial Parks and IT Buildings",Rangareddy,2117.0699999999997,1
+"Real Estate,Industrial Parks and IT Buildings","Yadadri Bhuvanagiri",10,2
+"Real Estate,Industrial Parks and IT Buildings",Karimnagar,0.2263,3
+"Solar and Other Renewable Energy",Mahabubnagar,994.077,1
+"Solar and Other Renewable Energy",Kamareddy,326.097,2
+"Solar and Other Renewable Energy",Medak,190.182,3
+Textiles,Mahabubnagar,67.225,1
+Textiles,Medchal_Malkajgiri,47.4238,2
+Textiles,Rangareddy,29.0406,3
+"Wood and Leather",Rangareddy,24.6524,1
+"Wood and Leather",Mahabubnagar,14.405000000000001,2
+"Wood and Leather",Sangareddy,12.036999999999999,3
