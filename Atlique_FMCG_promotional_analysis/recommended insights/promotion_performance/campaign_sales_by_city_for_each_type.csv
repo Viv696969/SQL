@@ -1,0 +1,51 @@
+city,promo_type,total_revenue_generated_in_mil
+Bengaluru,"25% OFF",1.43
+Bengaluru,"33% OFF",9.53
+Bengaluru,"50% OFF",0.34
+Bengaluru,"500 Cashback",38.13
+Bengaluru,BOGOF,22.98
+Chennai,"25% OFF",1.14
+Chennai,"33% OFF",7.23
+Chennai,"50% OFF",0.27
+Chennai,"500 Cashback",30.20
+Chennai,BOGOF,19.10
+Coimbatore,"25% OFF",0.50
+Coimbatore,"33% OFF",3.66
+Coimbatore,"50% OFF",0.12
+Coimbatore,"500 Cashback",13.42
+Coimbatore,BOGOF,8.63
+Hyderabad,"25% OFF",1.01
+Hyderabad,"33% OFF",6.71
+Hyderabad,"50% OFF",0.25
+Hyderabad,"500 Cashback",23.34
+Hyderabad,BOGOF,14.95
+Madurai,"25% OFF",0.40
+Madurai,"33% OFF",2.58
+Madurai,"50% OFF",0.09
+Madurai,"500 Cashback",13.15
+Madurai,BOGOF,6.86
+Mangalore,"25% OFF",0.20
+Mangalore,"33% OFF",1.34
+Mangalore,"50% OFF",0.05
+Mangalore,"500 Cashback",5.37
+Mangalore,BOGOF,3.22
+Mysuru,"25% OFF",0.51
+Mysuru,"33% OFF",3.72
+Mysuru,"50% OFF",0.13
+Mysuru,"500 Cashback",15.31
+Mysuru,BOGOF,7.65
+Trivandrum,"25% OFF",0.16
+Trivandrum,"33% OFF",0.95
+Trivandrum,"50% OFF",0.03
+Trivandrum,"500 Cashback",3.39
+Trivandrum,BOGOF,2.29
+Vijayawada,"25% OFF",0.15
+Vijayawada,"33% OFF",1.07
+Vijayawada,"50% OFF",0.04
+Vijayawada,"500 Cashback",4.13
+Vijayawada,BOGOF,2.38
+Visakhapatnam,"25% OFF",0.49
+Visakhapatnam,"33% OFF",3.40
+Visakhapatnam,"50% OFF",0.12
+Visakhapatnam,"500 Cashback",11.51
+Visakhapatnam,BOGOF,7.19
