@@ -159,3 +159,115 @@ group by city,promo_type
 order by city;
 
 
+-- 	Which product categories saw the most significant lift in sales from the promotions?
+with cte as (
+select 
+category,
+sum(discounted_price*quantity_sold_after_promo)/1000000 as revenue_after_promotion,
+sum(base_price*quantity_sold_before_promo)/1000000 as revenue_before_promotion,
+sum(base_price*quantity_sold_before_promo)/1000000 + sum(discounted_price*quantity_sold_after_promo)/1000000 as xyz
+from fact_joined
+group by category
+-- having revenue_after_promotion>revenue_before_promotion 
+)
+select *,
+((revenue_after_promotion-revenue_before_promotion)*100/xyz)
+ from cte;
+
+select distinct product_name from fact_joined where category like 'per%';
+
+
+-- Are there specific products that respond exceptionally well or poorly to promotions?
+select product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion,
+round(sum(base_price*quantity_sold_before_promo)/1000000,2) as revenue_before_promotion
+from fact_joined 
+group by product_name
+having revenue_after_promotion < revenue_before_promotion
+-- order by revenue_after_promotion desc
+;
+
+select product_name,
+sum(quantity_sold_after_promo) as sum
+from fact_joined
+-- where category like 'per%'
+group  by product_name;
+
+
+-- What is the correlation between product category and promotion type effectiveness?
+select 
+category,
+promo_type,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion
+from fact_joined
+group by category,promo_type
+order by category;
+
+-- top products in each category
+with cte as (
+select 
+category , product_name as product,round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion
+-- dense_rank() over(partition by category order by )  
+from fact_joined
+group by category,product_name
+),cte2 as (
+select category , product,revenue_after_promotion,
+dense_rank() over(partition by category order by revenue_after_promotion desc ) as rnk
+from cte
+)
+select * from cte2 where rnk<3;
+
+select distinct category from dim_products;
+
+select campaign_name  , sum(quantity_sold_after_promo)
+from fact_joined where product_name like '%rod'
+group by campaign_name;
+
+select sum(quantity_sold_after_promo) from fact_joined where product_name like '%rod';
+
+
+
+with cte as (
+select campaign_name,product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion
+from fact_joined
+group  by campaign_name,product_name
+),cte1 as (
+select 
+*,
+dense_rank() over(partition by campaign_name order by revenue_after_promotion desc) as rank_
+from cte
+)
+select campaign_name,product_name,revenue_after_promotion
+
+from cte1 where rank_<=3;
+
+with cte as (
+select campaign_name,city,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion
+from fact_joined
+group  by campaign_name,city
+),cte1 as (
+select 
+*,
+dense_rank() over(partition by campaign_name order by revenue_after_promotion desc) as rank_
+from cte
+)
+select campaign_name,city,revenue_after_promotion
+
+from cte1 where rank_<=3;
+
+with cte as (
+select city,product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue_after_promotion
+from fact_joined
+group  by city,product_name
+),cte1 as (
+select 
+*,
+dense_rank() over(partition by city order by revenue_after_promotion desc) as rank_
+from cte
+)
+select city,product_name,revenue_after_promotion
+
+from cte1 where rank_<=4;
