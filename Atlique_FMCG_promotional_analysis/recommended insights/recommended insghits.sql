@@ -1,12 +1,15 @@
 -- store performance insights
 
 select 
-store_id,city,sum((discounted_price*quantity_sold_after_promo))/1000000 as incremental_revenue_in_ml
+store_id,sum((discounted_price*quantity_sold_after_promo))/1000000 as incremental_revenue_in_ml
  from fact_events_view join dim_stores using(store_id)
- group by store_id,city
+ group by store_id
  order by incremental_revenue_in_ml desc
  limit 10
  ; 
+ 
+ select * from fact_events_view
+ where promo_type='BOGOF';
  
 -- top cities 
 select 
@@ -43,7 +46,7 @@ city, sum(quantity_sold_after_promo) total_quantity_sold
  from fact_events_view join dim_stores using(store_id)
  group by city
  ),cte1 as (
- select count(store_id) as cnt,city
+ select count( distinct store_id) as cnt,city
 from dim_stores
 group  by city
 ),cte2 as (
@@ -51,8 +54,9 @@ select * from cte join cte1 using(city)
 order by total_quantity_sold 
 )
 select 
-city,round((total_quantity_sold/cnt)) as avg_quantity_sold_per_store
+ city,round((total_quantity_sold/cnt)) as avg_quantity_sold_per_store
 from cte2
+order by avg_quantity_sold_per_store desc
 ;
  
  
@@ -171,7 +175,7 @@ group by category
 -- having revenue_after_promotion>revenue_before_promotion 
 )
 select *,
-((revenue_after_promotion-revenue_before_promotion)*100/xyz)
+((revenue_after_promotion-revenue_before_promotion)*100/revenue_before_promotion)
  from cte;
 
 select distinct product_name from fact_joined where category like 'per%';
