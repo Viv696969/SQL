@@ -1,0 +1,20 @@
+promo_type,product_name,"round(sum(discounted_price*quantity_sold_after_promo)/1000000,2)"
+"50% OFF","Atliq_Doodh_Kesar_Body_Lotion (200ML)",0.67
+"25% OFF","Atliq_Suflower_Oil (1L)",1.56
+BOGOF,Atliq_Curtains,4.90
+"500 Cashback",Atliq_Home_Essential_8_Product_Combo,157.95
+"25% OFF",Atliq_Scrub_Sponge_For_Dishwash,0.21
+"25% OFF","Atliq_Cream_Beauty_Bathing_Soap (125GM)",0.04
+BOGOF,Atliq_High_Glo_15W_LED_Bulb,10.47
+BOGOF,Atliq_Double_Bedsheet_set,17.92
+BOGOF,"Atliq_Suflower_Oil (1L)",12.24
+"25% OFF",Atliq_Fusion_Container_Set_of_3,1.39
+"50% OFF","Atliq_Lime_Cool_Bathing_Bar (125GM)",0.32
+"25% OFF","Atliq_Farm_Chakki_Atta (1KG)",2.66
+"33% OFF","Atliq_Sonamasuri_Rice (10KG)",35.25
+"33% OFF","Atliq_Masoor_Dal (1KG)",4.95
+BOGOF,Atliq_waterproof_Immersion_Rod,24.16
+"25% OFF","Atliq_Body_Milk_Nourishing_Lotion (120ML)",0.15
+BOGOF,"Atliq_Farm_Chakki_Atta (1KG)",25.56
+"50% OFF","Atliq_Body_Milk_Nourishing_Lotion (120ML)",0.24
+"50% OFF","Atliq_Cream_Beauty_Bathing_Soap (125GM)",0.21

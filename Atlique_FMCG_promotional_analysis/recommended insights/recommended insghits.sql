@@ -275,3 +275,49 @@ from cte
 select city,product_name,revenue_after_promotion
 
 from cte1 where rank_<=4;
+
+with cte as (
+select city,product_name,
+sum(quantity_sold_after_promo) as total_quantity
+from fact_joined
+group by city,product_name
+),cte1 as (
+select 
+*,
+dense_rank() over(partition by city order by total_quantity desc) as rnk_
+from cte
+)
+select * from cte1 where rnk_<3;
+
+with cte as (
+select 
+product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue
+from fact_joined
+where campaign_name='diwali'
+group by  product_name
+
+),
+cte1 as (
+select 
+product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue
+from fact_joined
+where campaign_name='sankranti'
+group by  product_name
+)
+select * from cte join cte1 using(product_name);
+
+
+select distinct promo_type,campaign_name,product_name from fact_joined;
+-- where product_name like "%atta%";
+
+-- with cte as (
+select campaign_name,promo_type,product_name,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as revenue,
+sum(quantity_sold_after_promo) as quantity_sold
+from fact_joined
+where product_name ='Atliq_Suflower_Oil (1L)' or product_name ='Atliq_Farm_Chakki_Atta (1KG)'
+group by campaign_name,promo_type,product_name;
+
+
