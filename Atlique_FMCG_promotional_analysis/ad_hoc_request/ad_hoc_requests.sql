@@ -86,3 +86,34 @@ dense_rank() over (order by `isu%` desc) as `rank`
 from cte1;
 
 
+-- 5. Create a report featuring the Top 5 products, ranked
+--  by Incremental RevenuePercentage (IR%), across all campaigns. 
+--  The report will provide essential information including product name, category, 
+--  and ir%. This analysis helps identify the most successful products in terms of
+--  incremental revenue across our campaigns, assisting in product optimization.
+
+with cte as (
+select product_name,
+round(
+	sum(discounted_price*quantity_sold_after_promo)/1000000,2
+    ) as rev_after_promotion,
+round(
+	sum(base_price*quantity_sold_before_promo)/1000000,2
+	) as rev_before_promotion
+from fact_joined
+group by product_name
+),cte1 as (
+select 
+*,
+round((rev_after_promotion-rev_before_promotion)*100/rev_before_promotion,2) as `iru%`
+from cte
+)
+select 
+ product_name,category,`iru%`
+from cte1 join dim_products using(product_name)
+order by `iru%` desc
+limit 5
+;
+
+ select (157.95-66.90)*100/66.90;
+ 
