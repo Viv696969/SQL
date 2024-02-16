@@ -115,5 +115,4 @@ order by `iru%` desc
 limit 5
 ;
 
- select (157.95-66.90)*100/66.90;
  

@@ -321,3 +321,31 @@ where product_name ='Atliq_Suflower_Oil (1L)' or product_name ='Atliq_Farm_Chakk
 group by campaign_name,promo_type,product_name;
 
 
+with cte as (
+select 
+store_id,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as rev_after_promo,
+round(sum(base_price*quantity_sold_before_promo)/1000000,2) as rev_bfor_promo
+from fact_joined
+group by store_id
+)
+select 
+store_id,rev_after_promo-rev_bfor_promo as incremental_rev_in_mil
+from cte
+order by incremental_rev_in_mil desc
+limit 10;
+
+
+with cte as (
+select store_id,
+sum(quantity_sold_after_promo) as qty_sold_after_promo,
+sum(quantity_sold_before_promo) as qty_sold_before_promo
+from fact_joined
+group by store_id
+)
+select 
+store_id, qty_sold_after_promo-qty_sold_before_promo as ISU
+from cte
+order by ISU
+limit 10;
+
