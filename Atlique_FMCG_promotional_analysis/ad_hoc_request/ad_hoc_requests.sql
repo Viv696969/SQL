@@ -82,7 +82,8 @@ round(difference*100/qty_sold_before_promo,2) as `isu%`
 )
 select 
 category,`isu%`,
-dense_rank() over (order by `isu%` desc) as `rank`
+dense_rank() over (order by `isu%` desc) as `rank`,qty_sold_after_promo-qty_sold_before_promo
+
 from cte1;
 
 
@@ -115,4 +116,4 @@ order by `iru%` desc
 limit 5
 ;
 
- 
+

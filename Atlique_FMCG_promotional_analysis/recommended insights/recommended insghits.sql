@@ -1,12 +1,20 @@
 -- store performance insights
 
+with cte as (
 select 
-store_id,sum((discounted_price*quantity_sold_after_promo))/1000000 as incremental_revenue_in_ml
+store_id,
+sum((discounted_price*quantity_sold_after_promo))/1000000 as rev_aft_promo,
+sum((base_price*quantity_sold_before_promo))/1000000 as rev_bfor_promo
  from fact_events_view join dim_stores using(store_id)
  group by store_id
- order by incremental_revenue_in_ml desc
- limit 10
- ; 
+ -- order by incremental_revenue_in_ml desc
+--  limit 10
+ )
+ select 
+ store_id,rev_aft_promo-rev_bfor_promo as IR
+
+ from cte
+  order by IR;
  
  select * from fact_events_view
  where promo_type='BOGOF';
@@ -77,18 +85,30 @@ select
  
  
  
-select campaign_name,round(sum( quantity_sold_after_promo*discounted_price)/1000000,2) as total_revenue
+select campaign_name,
+	round(
+    sum( quantity_sold_after_promo*discounted_price)/1000000,2
+    ) as total_revenue
 from fact_joined
 group  by campaign_name
 order by total_revenue desc ;
 
 -- 	What are the top 2 promotion types that resulted in the highest Incremental Revenue?
+with cte as (
 select 
-promo_type,round(sum( quantity_sold_after_promo*discounted_price)/1000000,2) as total_revenue
+promo_type,
+round(sum( quantity_sold_after_promo*discounted_price)/1000000,2) as revenue_after_promo,
+round(sum( quantity_sold_before_promo*base_price)/1000000,2) as revenue_before_promotion
  from fact_joined
  group by promo_type
- order by total_revenue desc
- ;
+ -- order by total_revenue desc 
+ )
+ select promo_type,revenue_after_promo-revenue_before_promotion as IR
+ from cte
+ order by IR desc
+ limit 2;
+ 
+ select * from fact_joined;
 
 select 
 promo_type,
@@ -114,11 +134,14 @@ select distinct product_name,category
 
 -- What are the bottom 2 promotion types in terms of their impact on Incremental Sold Units?
 select 
-promo_type,sum(quantity_sold_after_promo) as total_sold_units
+promo_type,
+sum(quantity_sold_after_promo)-sum(quantity_sold_before_promo) as ISU
  from fact_joined
  group by promo_type
- order by total_sold_units asc
+ order by ISU asc
  ;
+ 
+ select distinct product_name,campaign_name,promo_type from fact_joined ;
  
 -- Is there a significant difference in the performance 
 -- of discount-based promotions versus BOGOF (Buy One Get One Free) or cashback promotions?
