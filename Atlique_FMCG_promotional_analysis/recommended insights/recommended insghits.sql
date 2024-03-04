@@ -372,3 +372,18 @@ from cte
 order by ISU
 limit 10;
 
+with cte as (
+select 
+city,promo_type,
+round(sum(discounted_price*quantity_sold_after_promo)/1000000,2) as rev_after_promo,
+round(sum(base_price*quantity_sold_before_promo)/1000000,2) as rev_bfor_promo
+from fact_joined
+group by city,promo_type
+)
+select 
+city,promo_type,rev_after_promo-rev_bfor_promo as incremental_rev_in_million
+from cte
+order by city
+;
+
+
