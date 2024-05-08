@@ -1,6 +1,7 @@
 
 # Data Analysis Projects
-After completing Sql using the DBMS MySQL I started off my journey doing some projects related to data analysis. I used [Codebasics](https://codebasics.io/) resume project challenges to prepare these unguided projects. These projects involved using complex SQL queries , analysis raw data and deriving meaningfull insights from it,Excel for visualizing the data using various graphs such as Pivot Charts,Bar Charts,Pie Charts etc and Pandas from python for creating animated charts.
+After completing Sql using the DBMS MySQL I started off my journey doing some projects related to data analysis. I used [Codebasics](https://codebasics.io/) resume project challenges to prepare these unguided projects. These projects involved using complex SQL queries , analysis raw data and deriving meaningfull insights from it,Excel for visualizing the data using various graphs such as Pivot Charts,Bar Charts,Pie Charts etc and Pandas from python for creating animated charts. <br/> There are two projects namely 
+![Telangana Growth Analysis]() which focuses on the growth of the youngest state in India in the field of Autombiles,Industrial Project Approval and Self-Certification System" (iPASS) amd many more sectors. <br/> Another one is Promotional Analysis in analysis was perfomed during Promotional and Non-Promotional time for Atlique Mart.
 ## Tech Stack
 
 ![My Skills](https://skillicons.dev/icons?i=python,mysql&perline=10)
@@ -24,9 +25,7 @@ Click [here](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional
 ## Analyzed Charts Examples
 * Animated Chart Creation<br/>
 ![Logo](https://github.com/Viv696969/SQL/blob/main/telangana_growth_analysis/Stamps_Analysis/total-docs-and-stamps-re-over-time_kYTFA1T2.gif?raw=true)
-
 <br/>
-
 * Pivot Chart <br/>
 ![Example Image](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/reve_by_campaigns.png?raw=true)
 
@@ -52,6 +51,21 @@ Click [here](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional
 - Total Sold Quantity
 - Top N from P
 - Seasonal Patterns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 🔗 Links
