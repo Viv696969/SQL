@@ -1,4 +1,15 @@
 facts tables useful info
 	
 	there are 1472 data points / rows in the fact_stamp table
+	e stamp challans were started in Dec 2020
+	
+	
+	
+
+facts transport info
+	there are in total 1440 rows in the fact_transport table
+	
+	
+TS-Ipass
+	contains 5753 rows
 	
