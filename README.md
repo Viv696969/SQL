@@ -24,7 +24,9 @@ Click [here](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional
 ## Analyzed Charts Examples
 * Animated Chart Creation<br/>
 ![Logo](https://github.com/Viv696969/SQL/blob/main/telangana_growth_analysis/Stamps_Analysis/total-docs-and-stamps-re-over-time_kYTFA1T2.gif?raw=true)
+
 <br/>
+
 * Pivot Chart <br/>
 ![Example Image](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/reve_by_campaigns.png?raw=true)
 
