@@ -2,6 +2,7 @@
 # Data Analysis Projects
 After completing Sql using the DBMS MySQL I started off my journey doing some projects related to data analysis. I used [Codebasics](https://codebasics.io/) resume project challenges to prepare these unguided projects. These projects involved using complex SQL queries , analysis raw data and deriving meaningfull insights from it,Excel for visualizing the data using various graphs such as Pivot Charts,Bar Charts,Pie Charts etc and Pandas from python for creating animated charts.
 ## Tech Stack
+
 ![My Skills](https://skillicons.dev/icons?i=python,mysql&perline=10)
 
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -11,6 +12,7 @@ After completing Sql using the DBMS MySQL I started off my journey doing some pr
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 ## 🔗 Project Specific Links 
+
 Click [here](https://codebasics.io/certificate/CB-CH-1-12-114849) to view Project Certificate.
 
 [Promotional Analysis Presentation Video.](https://www.youtube.com/watch?v=xfNwymy7GlQ&t=114s)
@@ -19,6 +21,17 @@ Download Interactive Charts from [here](https://github.com/Viv696969/SQL/blob/ma
 
 Click [here](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/presentation.pdf) to view the power point presentation.
 
+## Analyzed Charts Examples
+* Animated Chart Creation<br/>
+![Logo](https://github.com/Viv696969/SQL/blob/main/telangana_growth_analysis/Stamps_Analysis/total-docs-and-stamps-re-over-time_kYTFA1T2.gif?raw=true)
+<br/>
+* Pivot Chart <br/>
+![Example Image](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/reve_by_campaigns.png?raw=true)
+
+<br/>
+
+* Pie Chart <br/>
+![Logo](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/top_campaigns.png?raw=true)
 
 ## Concepts Learned
 - CTE
@@ -38,15 +51,6 @@ Click [here](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional
 - Top N from P
 - Seasonal Patterns
 
-## Analyzed Charts Examples
-* Animated Chart Creation
-![Logo](https://github.com/Viv696969/SQL/blob/main/telangana_growth_analysis/Stamps_Analysis/total-docs-and-stamps-re-over-time_kYTFA1T2.gif?raw=true)
-<br/>
-* Pivot Chart 
-![Example Image](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/reve_by_campaigns.png?raw=true)
-<br/>
-* Pie Chart 
-![Logo](https://github.com/Viv696969/SQL/blob/main/Atlique_FMCG_promotional_analysis/recommended%20insights/promotion_performance/top_campaigns.png?raw=true)
 
 ## 🔗 Links
 Connect with me On<br/>
