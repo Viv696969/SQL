@@ -1,0 +1,512 @@
+pc_id,state_id,pc_name
+0,0,Adilabad
+1,0,Peddapalle
+2,0,Karimnagar
+3,0,Nizamabad
+4,0,Zahirabad
+5,0,Medak
+6,0,Malkajgiri
+7,0,Secundrabad
+8,0,Hyderabad
+9,0,Mahbubnagar
+10,0,Nagarkurnool
+11,0,Nalgonda
+12,0,Bhongir
+13,0,Warangal
+14,0,Mahabubabad
+15,0,Khammam
+16,1,Chelvella
+17,1,Aruku
+18,1,Srikakulam
+19,1,Vizianagaram
+20,1,Visakhapatnam
+21,1,Anakapalli
+22,1,Kakinada
+23,1,Amalapuram
+24,1,Rajahmundry
+25,1,Narsapuram
+26,1,Eluru
+27,1,Machilipatnam
+28,1,Vijayawada
+29,1,Guntur
+30,1,Narasaraopet
+31,1,Bapatla
+32,1,Ongole
+33,1,Nandyal
+34,1,Kurnool
+35,1,Anantapur
+36,1,Hindupur
+37,1,Kadapa
+38,1,Nellore
+39,1,Tirupati
+40,1,Rajampet
+41,1,Chittoor
+42,2,Arunachal West
+43,2,Arunachal East
+44,3,Karimganj
+45,3,Silchar
+46,3,Autonomous District
+47,3,Dhubri
+48,3,Kokrajhar
+49,3,Barpeta
+50,3,Gauhati
+51,3,Mangaldoi
+52,3,Tezpur
+53,3,Nowgong
+54,3,Kaliabor
+55,3,Jorhat
+56,3,Dibrugarh
+57,3,Lakhimpur
+58,4,Valmiki Nagar
+59,4,Paschim Champaran
+60,4,Purvi Champaran
+61,4,Sheohar
+62,4,Sitamarhi
+63,4,Madhubani
+64,4,Jhanjharpur
+65,4,Supaul
+66,4,Araria
+67,4,Kishanganj
+68,4,Katihar
+69,4,Purnia
+70,4,Madhepura
+71,4,Darbhanga
+72,4,Muzaffarpur
+73,4,Vaishali
+74,4,Gopalganj (Sc)
+75,4,Siwan
+76,4,Maharajganj
+77,4,Saran
+78,4,Hajipur (Sc)
+79,4,Ujiarpur
+80,4,Samastipur (Sc)
+81,4,Begusarai
+82,4,Khagaria
+83,4,Bhagalpur
+84,4,Banka
+85,4,Munger
+86,4,Nalanda
+87,4,Patna Sahib
+88,4,Pataliputra
+89,4,Arrah
+90,4,Buxar
+91,4,Sasaram (Sc)
+92,4,Karakat
+93,4,Jahanabad
+94,4,Aurangabad
+95,4,Gaya (Sc)
+96,4,Nawada
+97,4,Jamui (Sc)
+98,5,North Goa
+99,5,South Goa
+100,6,Kachchh
+101,6,Banaskantha
+102,6,Patan
+103,6,Mahesana
+104,6,Sabarkantha
+105,6,Gandhinagar
+106,6,Ahmedabad East
+107,6,Ahmedabad West
+108,6,Surendranagar
+109,6,Rajkot
+110,6,Porbandar
+111,6,Jamnagar
+112,6,Junagadh
+113,6,Amreli
+114,6,Bhavnagar
+115,6,Anand
+116,6,Kheda
+117,6,Panchmahal
+118,6,Dahod
+119,6,Vadodara
+120,6,Chhota Udaipur
+121,6,Bharuch
+122,6,Bardoli
+123,6,Surat
+124,6,Navsari
+125,6,Valsad
+126,7,Ambala
+127,7,Kurukshetra
+128,7,Sirsa
+129,7,Hisar
+130,7,Karnal
+131,7,Sonipat
+132,7,Rohtak
+133,7,Bhiwani-Mahendragarh
+134,7,Gurgaon
+135,7,Faridabad
+136,8,Kangra
+137,8,Mandi
+138,8,Hamirpur
+139,8,Shimla
+140,9,Baramulla
+141,9,Srinagar
+142,9,Anantnag
+143,9,Ladakh
+144,9,Udhampur
+145,9,Jammu
+146,10,Chikkodi
+147,10,Belgaum
+148,10,Bagalkot
+149,10,Bijapur
+150,10,Gulbarga
+151,10,Raichur
+152,10,Bidar
+153,10,Koppal
+154,10,Bellary
+155,10,Haveri
+156,10,Dharwad
+157,10,Uttara Kannada
+158,10,Davanagere
+159,10,Shimoga
+160,10,Udupi Chikmagalur
+161,10,Hassan
+162,10,Dakshina Kannada
+163,10,Chitradurga
+164,10,Tumkur
+165,10,Mandya
+166,10,Mysore
+167,10,Chamarajanagar
+168,10,Bangalore Rural
+169,10,Bangalore North
+170,10,Bangalore Central
+171,10,Bangalore South
+172,10,Chikkballapur
+173,10,Kolar
+174,11,Kasaragod
+175,11,Kannur
+176,11,Vadakara
+177,11,Wayanad
+178,11,Kozhikode
+179,11,Malappuram
+180,11,Ponnani
+181,11,Palakkad
+182,11,Alathur
+183,11,Thrissur
+184,11,Chalakudy
+185,11,Ernakulam
+186,11,Idukki
+187,11,Kottayam
+188,11,Alappuzha
+189,11,Mavelikkara
+190,11,Pathanamthitta
+191,11,Kollam
+192,11,Attingal
+193,11,Thiruvananthapuram
+194,12,Morena
+195,12,Bhind
+196,12,Gwalior
+197,12,Guna
+198,12,Sagar
+199,12,Tikamgarh
+200,12,Damoh
+201,12,Khajuraho
+202,12,Satna
+203,12,Rewa
+204,12,Sidhi
+205,12,Shahdol
+206,12,Jabalpur
+207,12,Mandla
+208,12,Balaghat
+209,12,Chhindwara
+210,12,Hoshangabad
+211,12,Vidisha
+212,12,Bhopal
+213,12,Rajgarh
+214,12,Dewas
+215,12,Ujjain
+216,12,Mandsour
+217,12,Ratlam
+218,12,Dhar
+219,12,Indore
+220,12,Khargone
+221,12,Khandwa
+222,12,Betul
+223,13,Nandurbar
+224,13,Dhule
+225,13,Jalgaon
+226,13,Raver
+227,13,Buldhana
+228,13,Akola
+229,13,Amravati
+230,13,Wardha
+231,13,Ramtek
+232,13,Nagpur
+233,13,Bhandara - Gondiya
+234,13,Gadchiroli-Chimur
+235,13,Chandrapur
+236,13,Yavatmal-Washim
+237,13,Hingoli
+238,13,Nanded
+239,13,Parbhani
+240,13,Jalna
+241,13,Aurangabad
+242,13,Dindori
+243,13,Nashik
+244,13,Palghar
+245,13,Bhiwandi
+246,13,Kalyan
+247,13,Thane
+248,13,Mumbai North
+249,13,Mumbai North West
+250,13,Mumbai North East
+251,13,Mumbai North Central
+252,13,Mumbai South Central
+253,13,Mumbai   South
+254,13,Raigad
+255,13,Maval
+256,13,Pune
+257,13,Baramati
+258,13,Shirur
+259,13,Ahmadnagar
+260,13,Shirdi
+261,13,Beed
+262,13,Osmanabad
+263,13,Latur
+264,13,Solapur
+265,13,Madha
+266,13,Sangli
+267,13,Satara
+268,13,Ratnagiri - Sindhudurg
+269,13,Kolhapur
+270,13,Hatkanangle
+271,14,Inner Manipur
+272,14,Outer Manipur
+273,15,Shillong
+274,15,Tura
+275,16,Mizoram
+276,17,Nagaland
+277,18,Gurdaspur
+278,18,Amritsar
+279,18,Khadoor Sahib
+280,18,Jalandhar
+281,18,Hoshiarpur
+282,18,Anandpur Sahib
+283,18,Ludhiana
+284,18,Fatehgarh Sahib
+285,18,Faridkot
+286,18,Firozpur
+287,18,Bathinda
+288,18,Sangrur
+289,18,Patiala
+290,19,Ganganagar
+291,19,Bikaner
+292,19,Churu
+293,19,Jhunjhunu
+294,19,Sikar
+295,19,Jaipur Rural
+296,19,Jaipur
+297,19,Alwar
+298,19,Bharatpur
+299,19,Karauli-Dholpur
+300,19,Dausa
+301,19,Tonk-Sawai Madhopur
+302,19,Ajmer
+303,19,Nagaur
+304,19,Pali
+305,19,Jodhpur
+306,19,Barmer
+307,19,Jalore
+308,19,Udaipur
+309,19,Banswara
+310,19,Chittorgarh
+311,19,Rajsamand
+312,19,Bhilwara
+313,19,Kota
+314,19,Jhalawar-Baran
+315,20,Sikkim
+316,21,Thiruvallur
+317,21,Chennai North
+318,21,Chennai South
+319,21,Chennai Central
+320,21,Sriperumbudur
+321,21,Kancheepuram
+322,21,Arakkonam
+323,21,Vellore
+324,21,Krishnagiri
+325,21,Dharmapuri
+326,21,Tiruvannamalai
+327,21,Arani
+328,21,Viluppuram
+329,21,Kallakurichi
+330,21,Salem
+331,21,Namakkal
+332,21,Erode
+333,21,Tiruppur
+334,21,Nilgiris
+335,21,Coimbatore
+336,21,Pollachi
+337,21,Dindigul
+338,21,Karur
+339,21,Tiruchirappalli
+340,21,Perambalur
+341,21,Cuddalore
+342,21,Chidambaram
+343,21,Mayiladuthurai
+344,21,Nagapattinam
+345,21,Thanjavur
+346,21,Sivaganga
+347,21,Madurai
+348,21,Theni
+349,21,Virudhunagar
+350,21,Ramanathapuram
+351,21,Thoothukkudi
+352,21,Tenkasi
+353,21,Tirunelveli
+354,21,Kanniyakumari
+355,22,Tripura West
+356,22,Tripura East
+357,23,Saharanpur
+358,23,Kairana
+359,23,Muzaffarnagar
+360,23,Bijnor
+361,23,Nagina
+362,23,Moradabad
+363,23,Rampur
+364,23,Sambhal
+365,23,Amroha
+366,23,Meerut
+367,23,Baghpat
+368,23,Ghaziabad
+369,23,Gautam Buddha Nagar
+370,23,Bulandshahr
+371,23,Aligarh
+372,23,Hathras
+373,23,Mathura
+374,23,Agra
+375,23,Fatehpur Sikri
+376,23,Firozabad
+377,23,Mainpuri
+378,23,Etah
+379,23,Badaun
+380,23,Aonla
+381,23,Bareilly
+382,23,Pilibhit
+383,23,Shahjahanpur
+384,23,Kheri
+385,23,Dhaurahra
+386,23,Sitapur
+387,23,Hardoi
+388,23,Misrikh
+389,23,Unnao
+390,23,Mohanlalganj
+391,23,Lucknow
+392,23,Rae Bareli
+393,23,Amethi
+394,23,Sultanpur
+395,23,Pratapgarh
+396,23,Farrukhabad
+397,23,Etawah
+398,23,Kannauj
+399,23,Kanpur
+400,23,Akbarpur
+401,23,Jalaun
+402,23,Jhansi
+403,23,Hamirpur
+404,23,Banda
+405,23,Fatehpur
+406,23,Kaushambi
+407,23,Phulpur
+408,23,Allahabad
+409,23,Barabanki
+410,23,Faizabad
+411,23,Ambedkar Nagar
+412,23,Bahraich
+413,23,Kaiserganj
+414,23,Shrawasti
+415,23,Gonda
+416,23,Domariyaganj
+417,23,Basti
+418,23,Sant Kabir Nagar
+419,23,Maharajganj
+420,23,Gorakhpur
+421,23,Kushi Nagar
+422,23,Deoria
+423,23,Bansgaon
+424,23,Lalganj
+425,23,Azamgarh
+426,23,Ghosi
+427,23,Salempur
+428,23,Ballia
+429,23,Jaunpur
+430,23,Machhlishahr
+431,23,Ghazipur
+432,23,Chandauli
+433,23,Varanasi
+434,23,Bhadohi
+435,23,Mirzapur
+436,23,Robertsganj
+437,24,Cooch Behar
+438,24,Alipurduars
+439,24,Jalpaiguri
+440,24,Darjeeling
+441,24,Raiganj
+442,24,Balurghat
+443,24,Maldaha Uttar
+444,24,Maldaha Dakshin
+445,24,Jangipur
+446,24,Baharampur
+447,24,Murshidabad
+448,24,Krishnanagar
+449,24,Ranaghat
+450,24,Bangaon
+451,24,Barrackpore
+452,24,Dum Dum
+453,24,Barasat
+454,24,Basirhat
+455,24,Joynagar
+456,24,Mathurapur
+457,24,Diamond Harbour
+458,24,Jadavpur
+459,24,Kolkata Dakshin
+460,24,Kolkata Uttar
+461,24,Howrah
+462,24,Uluberia
+463,24,Srerampur
+464,24,Hooghly
+465,24,Arambagh
+466,24,Tamluk
+467,24,Kanthi
+468,24,Ghatal
+469,24,Jhargram
+470,24,Medinipur
+471,24,Purulia
+472,24,Bankura
+473,24,Bishnupur
+474,24,Bardhaman Purba
+475,24,Burdwan - Durgapur
+476,24,Asansol
+477,24,Bolpur
+478,24,Birbhum
+479,25,Rajmahal
+480,25,Dumka
+481,25,Godda
+482,25,Chatra
+483,25,Kodarma
+484,25,Giridih
+485,25,Dhanbad
+486,25,Ranchi
+487,25,Jamshedpur
+488,25,Singhbhum
+489,25,Khunti
+490,25,Lohardaga
+491,25,Palamau
+492,25,Hazaribagh
+493,26,Tehri Garhwal
+494,26,Garhwal
+495,26,Almora
+496,26,Nainital-Udhamsingh Nagar
+497,26,Hardwar
+498,27,Andaman & Nicobar Islands
+499,28,Chandigarh
+500,29,Dadar & Nagar Haveli
+501,30,Daman & Diu
+502,31,Chandni Chowk
+503,31,North East Delhi
+504,31,East Delhi
+505,31,New Delhi
+506,31,North West Delhi
+507,31,West Delhi
+508,31,South Delhi
+509,32,Lakshadweep
+510,33,Puducherry
