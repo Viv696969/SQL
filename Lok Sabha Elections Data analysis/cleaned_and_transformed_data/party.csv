@@ -1,0 +1,900 @@
+party_id,party,symbol
+0,A S P,Walking Stick
+1,AAAP,Broom
+2,AAMJP,Pen Nib with Seven Rays
+3,AAP,Almirah
+4,ABAS,BUCKET
+5,ABCD(A),Candles
+6,ABHKP,Auto- Rickshaw
+7,ABHM,Coconut
+8,ABJS,Kite
+9,ABML(S),Balloon
+10,ABMP,Pen Nib with Seven Rays
+11,ABRS,Table Lamp
+12,ABSC,Lady Purse
+13,ABSP,Auto- Rickshaw
+14,ABSR,Chappals
+15,ABVCP,Telephone
+16,AD,Cup & Saucer
+17,ADMK,Two Leaves
+18,ADPT,Gas Cylinder
+19,ADSMK,Candles
+20,ADSP,Auto- Rickshaw
+21,ADUP,Kettle
+22,AGP,Elephant
+23,AGRJP,Pen Nib with Seven Rays
+24,AIACP,Batsman
+25,AIFB,Lion
+26,AIMF,Air Conditioner
+27,AIMIM,Almirah
+28,AINRC,Jug
+29,AIPF,Camera
+30,AIRSP,Sewing Machine
+31,AITC,Flowers and Grass
+32,AIUDF,Lock and Key
+33,AJKMP,Auto- Rickshaw
+34,AJSUP,Banana
+35,AKAKRP,Kite
+36,AKBAP,Balloon
+37,AKBJHP,Scissors
+38,AKBMP,Coconut
+39,ALHP,Green Chilli
+40,AMB,Camera
+41,AMP,Ceiling Fan
+42,AMS,Coconut
+43,ANC,Bat
+44,APCP,Walking Stick
+45,APM,Ring
+46,APRSSP,Batsman
+47,APOI,Coat
+48,ARP,Batsman
+49,ARPS,Camera
+50,ARVP,Razor
+51,ARWP,Batsman
+52,ASP,Pen Stand
+53,ASAP,Batsman
+54,ATBP,Bat
+55,AVIRP,Bat
+56,AA S P,Gas Cylinder
+57,AWVP,Candles
+58,BA S D,Glass Tumbler
+59,BBC,Auto- Rickshaw
+60,BBM,Cup & Saucer
+61,BBMP,Envelope
+62,BBPSP,Batsman
+63,BC,Almirah
+64,BCBDP,Candles
+65,BCP,BUCKET
+66,BCUF,Chappals
+67,BDBRAJP,Balloon
+68,BED,Cauliflower
+69,BEMP,Battery Torch
+70,BGTD,Bat
+71,BHBP,Sewing Machine
+72,BHNKP,Ceiling Fan
+73,BHPP,Battery Torch
+74,BHSSP,Batsman
+75,BIP,Balloon
+76,BJJD,Kite
+77,BJKD,Candles
+78,BJKVP,Cup & Saucer
+79,BJM,Hat
+80,BJP,Lotus
+81,BJPARTY,Gas Cylinder
+82,BJSP,Coconut
+83,BKLJP,Glass Tumbler
+84,BKP,Auto- Rickshaw
+85,BKPP,Television
+86,BKSL,Diesel Pump
+87,BKRD,FLUTE
+88,BLSP,Ceiling Fan
+89,BMF,Kite
+90,BMNSP,Whistle
+91,BMSM,Basket containing Fruits
+92,BMUP,Cot
+93,BNIP,Candles
+94,BNJD,Kite
+95,BNNP,Coconut
+96,BOPF,Nangol
+97,BPC,Gas Cylinder
+98,BRABSVP,Brush
+99,BRAVP,FLUTE
+100,BRMD,Television
+101,BRPI,Batsman
+102,BRPP,Stool
+103,BRVP,Almirah
+104,BSCP,Conch
+105,BSD,Walking Stick
+106,BSDL,Cup & Saucer
+107,BSDS,Ceiling Fan
+108,BSKD,Walking Stick
+109,BSKP,Sewing Machine
+110,BSP,Elephant
+111,BSP(A),Sewing Machine
+112,BSP(K),Candles
+113,BVA,Whistle
+114,BVLP,Balloon
+115,BVM,Basket containing Fruits
+116,BYS,Candles
+117,BASAP,Balloon
+118,BAVAP,Cup & Saucer
+119,BHJASP,Ceiling Fan
+120,BHNP,Black Board
+121,BHNAP,Almirah
+122,BHSMP,Camera
+123,CPI,Ears of Corn And Sickle
+124,CPI(ML)(L),Auto- Rickshaw
+125,CPIM,Saw
+126,CPM,"Hammer, Sickle and Star"
+127,CSM,Coconut
+128,DABAP,Auto- Rickshaw
+129,DBSP,Batsman
+130,DCP,Telephone
+131,DESEP,Stool
+132,DFBL,Auto- Rickshaw
+133,DMDK,Nagara
+134,DMK,Rising Sun
+135,DND,Shuttle
+136,DNP,Camera
+137,DPPS,Coconut
+138,DAP,Candles
+139,DAVP,Almirah
+140,EKSP,Walking Stick
+141,ESKP,Battery Torch
+142,ETMK,Whistle
+143,GGP,Kite
+144,GOA,Ring
+145,GRIP,Slate
+146,GSRP,Candles
+147,GAAP,Window
+148,HEP,Gas Cylinder
+149,HJCBL,Tractor
+150,HJP,Cup & Saucer
+151,HKRD,Pot
+152,HND,Battery Torch
+153,HSCP,Diesel Pump
+154,HVD,Sewing Machine
+155,HIPPA,Brief Case
+156,HISP,Telephone
+157,IBSP,Sewing Machine
+158,IBSPK,Lady Purse
+159,ICSP,Trumpet
+160,IJP,Gas Cylinder
+161,IKL,Candles
+162,ILP(AP),Auto- Rickshaw
+163,INC,Hand
+164,IND,Auto- Rickshaw
+165,INL,Iron
+166,INLD,Spectacles
+167,IOP,Telephone
+168,IPFT,Dao
+169,IPGP,Kite
+170,IPP,Candles
+171,ISSP,Almirah
+172,IUC,Candles
+173,IUML,Ladder
+174,IVD,Walking Stick
+175,IVP,Balloon
+176,JAP,Almirah
+177,JBSP,Scissors
+178,JD(S),A lady farmer carrying paddy on her head
+179,JD(U),Arrow
+180,JDP,Cup & Saucer
+181,JDR,Bat
+182,JGP,Whistle
+183,JHAP,Dao
+184,JHP,Scissors
+185,JJ,Battery Torch
+186,JKM,Air Conditioner
+187,JKN,Plough
+188,JKNPP,Pressure Cooker
+189,JKP,Basket containing Fruits
+190,JKP(N),Basket containing Fruits
+191,JKPDP,Ink Pot & Pen
+192,JM,Auto- Rickshaw
+193,JMBP,Ring
+194,JMM,Bow & Arrow
+195,JMM(U),Bow & Arrow
+196,JND,Coconut
+197,JPC,Candles
+198,JPJD,Diesel Pump
+199,JPS,Saw
+200,JRPA,Scissors
+201,JSEP,Letter Box
+202,JSK,Telephone
+203,JSMP,Pressure Cooker
+204,JVBP,Grapes
+205,JVD,BUCKET
+206,JVM,Comb
+207,JARAP,Kite
+208,JARAPA,Whistle
+209,JASPA,Chappals
+210,JANSP,Sewing Machine
+211,JESM,Walking Stick
+212,KAP,Batsman
+213,KCVP,Auto- Rickshaw
+214,KDC,Letter Box
+215,KEC(M),Two Leaves
+216,KMBS,Cup & Saucer
+217,KS,Hat
+218,KVD,Whistle
+219,LB,Slate
+220,LD,Candles
+221,LJP,Bungalow
+222,LKJP,Air Conditioner
+223,LPI(V),Cup & Saucer
+224,LPR,Gas Cylinder
+225,LPSP,Almirah
+226,LS,Almirah
+227,LSP,Whistle
+228,LSWP,Candles
+229,LORP,FLUTE
+230,MADP,Auto- Rickshaw
+231,MAHP,HOCKEY & BALL
+232,MAMAK,Candles
+233,MBCOI,Scissors
+234,MBT,Balloon
+235,MCO,Kite
+236,MCPI,Carrom Board
+237,MD,Auto- Rickshaw
+238,MDMK,Top
+239,MDPF,Battery Torch
+240,MEDP,FLUTE
+241,MHD,Scissors
+242,MKUP,Kite
+243,MMKA,BUCKET
+244,MMM,Basket containing Fruits
+245,MNDP,Kite
+246,MNS,Railway Engine
+247,MOP,Auto- Rickshaw
+248,MOSP,HOCKEY & BALL
+249,MPS(T),Gas Cylinder
+250,MVA,Gas Cylinder
+251,MAJP,Television
+252,MASP,Ring
+253,MASPA,Almirah
+254,MWSP,Whistle
+255,NADP,Stethoscope
+256,NAJC,Auto- Rickshaw
+257,NAP,HOCKEY & BALL
+258,NBDP,Table
+259,NBNP,Dao
+260,NCP,Clock
+261,NDEP,Kite
+262,NEP,Black Board
+263,NIP,Cup & Saucer
+264,NJC,Almirah
+265,NLP,Ceiling Fan
+266,NMK,Batsman
+267,NNP,Kite
+268,NOC,Candles
+269,NOTA,NOTA
+270,NP,Table
+271,NPEP,Book
+272,NPF,Cock
+273,NPT,Auto- Rickshaw
+274,NRSN,FLUTE
+275,NSBP,Candles
+276,NTP,Coat
+277,NYP,Battery Torch
+278,NALP,Kettle
+279,PAP,Bat
+280,PBI,Gas Stove
+281,PDS,Kite
+282,PECP,Ceiling Fan
+283,PG,Kite
+284,PGSP,Helmet
+285,PHRC,Gas Cylinder
+286,PLP,Gas Cylinder
+287,PMK,Mango
+288,PMSP,Saw
+289,PPA,Maize
+290,PPI,Auto- Rickshaw
+291,PPIS,Candles
+292,PPOI,Television
+293,PRCP,Kite
+294,PRISM,Basket containing Fruits
+295,PRSP,BUCKET
+296,PSJP,Kite
+297,PSS,Bread
+298,PT,Television
+299,PWPI,Cup & Saucer
+300,QED,Glass Tumbler
+301,RAC,Cup & Saucer
+302,RADP,Carrot
+303,RAHM,FLUTE
+304,RAKP,Scissors
+305,RAPA,Green Chilli
+306,RBC,Auto- Rickshaw
+307,RBCP,Battery Torch
+308,RBHP,Kite
+309,RBS,Auto- Rickshaw
+310,RCMP,CARPET
+311,RDHP,Electric Pole
+312,REP,Auto- Rickshaw
+313,RGD,Batsman
+314,RJ,Scissors
+315,RJAP,Sewing Machine
+316,RJAVP,Electric Pole
+317,RJD,Candles
+318,RJJM,Ceiling Fan
+319,RJM,Candles
+320,RJNP,HOCKEY & BALL
+321,RJP(E),Glass Tumbler
+322,RJPK,Battery Torch
+323,RJVP,Gas Cylinder
+324,RKEP,Gas Cylinder
+325,RKSP,Camera
+326,RLD,Hand Pump
+327,RMGP,Stethoscope
+328,RMOP,BUCKET
+329,RND,Almirah
+330,RP(K),Auto- Rickshaw
+331,RPC(S),Gas Cylinder
+332,RPD,Kite
+333,RPI,Sewing Machine
+334,RPI(A),Sewing Machine
+335,RPI(KH),Candles
+336,RPIE,Battery Torch
+337,RPP(LB),Sewing Machine
+338,RPS,Gas Cylinder
+339,RRP,Hat
+340,RSD,FLUTE
+341,RSMD,Sewing Machine
+342,RSOSP,Kettle
+343,RSP,Spade & Stoker
+344,RSPK(B),Gas Cylinder
+345,RSPS,Cup & Saucer
+346,RSSDP,Cup & Saucer
+347,RSWD,Almirah
+348,RTKP,Stethoscope
+349,RUC,Balloon
+350,RVLP,Table Lamp
+351,RVMP,Camera
+352,RVNP,Auto- Rickshaw
+353,RVP,Gas Cylinder
+354,RWSP,Whistle
+355,RAAD,Kite
+356,RABAP,Pressure Cooker
+357,RACP,Sewing Machine
+358,RAIP,Grapes
+359,RAJPA,Dish Antenna
+360,RAJSP,Candles
+361,RAMSP,Candles
+362,RRSP,Coconut
+363,RSAD,Walking Stick
+364,RSHJP,Walking Stick
+365,RTJP,Candles
+366,RTRJP,Scissors
+367,S(J),Gas Stove
+368,SAD,Scales
+369,SAD(M),HOCKEY & BALL
+370,SAP,Air Conditioner
+371,SARP,Scissors
+372,SBSP,Walking Stick
+373,SDF,Umbrella
+374,SDP,Auto- Rickshaw
+375,SDPI,Auto- Rickshaw
+376,SHP,Auto- Rickshaw
+377,SHS,Bow & Arrow
+378,SJD,Ring
+379,SJP(R),Battery Torch
+380,SJPA,Gas Cylinder
+381,SKLP,Balloon
+382,SKM,Table Lamp
+383,SLAP,Bat
+384,SLP(L),BUCKET
+385,SP,Bicycle
+386,SP(I),Battery Torch
+387,SPP,Batsman
+388,SRP,Telephone
+389,SSAD,Chappals
+390,SSD,Saw
+391,SSKP,Auto- Rickshaw
+392,SSPD,Candles
+393,STR,Electric Pole
+394,SUCI,Glass Tumbler
+395,SVPP,Kite
+396,SVRP,Sewing Machine
+397,SWJP,Black Board
+398,SWP,Whistle
+399,SWPI,Pen Nib with Seven Rays
+400,SWSP,Pressure Cooker
+401,SABP,Cup & Saucer
+402,SADA,Frying Pan
+403,SASAP,Cup & Saucer
+404,SAVP,Trumpet
+405,SAMSP,Electric Pole
+406,TDP,Bicycle
+407,TECPI,Auto- Rickshaw
+408,TLP,Gas Cylinder
+409,TNMC,Pen Nib with Seven Rays
+410,TPGC,Candles
+411,TRMRPPI,Harmonium
+412,TRS,Car
+413,TTNC,Batsman
+414,UCPI,Ring
+415,UDP,Drum
+416,UMK,Gas Cylinder
+417,UPI,Ceiling Fan
+418,UPP,Scissors
+419,UPRP,Sewing Machine
+420,VAJP,Walking Stick
+421,VCK,Ring
+422,VHS,Batsman
+423,VIP,Gas Cylinder
+424,VJCP,Chappals
+425,VSP,Gas Stove
+426,VOP,Candles
+427,WPOI,Auto- Rickshaw
+428,YSRCP,Ceiling Fan
+429,YUS,Candles
+430,AICP,CALCULATOR
+431,AIMPR,Air Conditioner
+432,ASDP,Pot
+433,BHP,Sewing Machine
+434,BJDI,Hat
+435,BJYP,Balloon
+436,BNS,Dish Antenna
+437,GRAC,Candles
+438,HKD,Cup & Saucer
+439,IGP,Gas Cylinder
+440,JHSPT,BUCKET
+441,KAJP,School Bag
+442,LPI,Whistle
+443,MMSP,Iron
+444,NUZP,Telephone
+445,PJDL,Television
+446,PMS,Cup & Saucer
+447,RAUP,Cauliflower
+448,RAVP,Scissors
+449,RDSC,Auto- Rickshaw
+450,SHSAP,Almirah
+451,SPS,Bat
+452,SSRD,Grapes
+453,AABHAP,Balloon
+454,AACP,Batsman
+455,AAHPTY,Apple
+456,AAM,CHAPATI ROLLER
+457,AAPP,Battery Torch
+458,ABD,Neck Tie
+459,ABEP,Man Blowing Turha
+460,ABGP,Saw
+461,ABHP,Ear Rings
+462,ABHS,Gas Cylinder
+463,ABLP,Pot
+464,ABNNP,Tea Filter
+465,ABSKP,Plastering Trowel
+466,ABSSP,Bat
+467,ACDP,Jackfruit
+468,ACP,Tooth Brush
+469,ADAL,Cup & Saucer
+470,ADRP,Auto- Rickshaw
+471,ADRSP,Walking Stick
+472,AGIMK,BUCKET
+473,AHFBK,CHESS BOARD
+474,AHIMSASP,HOCKEY & BALL
+475,AHNP,CHAPATI ROLLER
+476,AIDMMK,Balloon
+477,AIJAP,Matchbox
+478,AIMAK,Auto- Rickshaw
+479,AINHCP,Tractor Chalata Kisan
+480,AINPP,Boat with Man and Sail
+481,AIP,T.V. Remote
+482,AIPTMMK,Capsicum
+483,AIRCP,Television
+484,AIUC,Pen Nib with Seven Rays
+485,AIUUK,COCONUT FARM
+486,AIVP,Key
+487,AJM,Cup & Saucer
+488,AJNSP,Tractor Chalata Kisan
+489,AJPI,Helicopter
+490,AJPR,Helicopter
+491,AKBHAD,Scissors
+492,AKHP,Helicopter
+493,AKSP,Pants
+494,ALINLBP,Glass Tumbler
+495,ALOP,Battery Torch
+496,ALPP,Cot
+497,AMIP,T.V. Remote
+498,AMKP,Telephone
+499,AMPK,Mike
+500,ANAP,Cup & Saucer
+501,ANIJP,Glass Tumbler
+502,ANNADATA,Tractor Chalata Kisan
+503,ANRP,Stool
+504,ANSP,Cake
+505,APEP,Hat
+506,APKSP,Cot
+507,ARK,Bricks
+508,ASDC,Table
+509,ASDHP,Bottle
+510,ASGP,Pen Nib with Seven Rays
+511,ASJP,Road Roller
+512,AVVP,Refrigerator
+513,AYP,Bread
+514,AYSRCP,Football Player
+515,BAAP,Fountain
+516,BAEP,Scissors
+517,BAHAP,Auto- Rickshaw
+518,BAHUMP,Whistle
+519,BAJD,Air Conditioner
+520,BALP,Plate Containing Food
+521,BARESP,Air Conditioner
+522,BARP,Crane
+523,BASAPA,Battery Torch
+524,BAWPA,Tooth Brush
+525,BBKD,Television
+526,BBPP,Green Chilli
+527,BDJS,Pot
+528,BDLP,Shoe
+529,BDPTY,Ganna Kisan
+530,BEPP,Road Roller
+531,BGANP,Pot
+532,BHABHAPA,Stethoscope
+533,BHAIP,Auto- Rickshaw
+534,BHAMAP,Capsicum
+535,BHAPRAP,Ludo
+536,BHARP,Helicopter
+537,BHAZS,Football
+538,BHBHP,Tooth Brush
+539,BHBSP,Kettle
+540,BHHF,HOCKEY & BALL
+541,BHJMP,Almirah
+542,BHMP,Slate
+543,BHTJP,Almirah
+544,BJAZP,Slate
+545,BJD,Conch
+546,BJNP,Extension Board
+547,BJSAP,Bat
+548,BJSPP,Cauliflower
+549,BJSTP,Room Cooler
+550,BKNP,Cot
+551,BKVP,Ganna Kisan
+552,BLND,BOX
+553,BLOKSP,Lunch Box
+554,BLRP,BUCKET
+555,BLSD,Telephone
+556,BMD,Wheel Barrow
+557,BMFP,BISCUIT
+558,BMJP,Tractor Chalata Kisan
+559,BMTRP,Plate Containing Food
+560,BMVSP,Boat with Man and Sail
+561,BNARP,Ganna Kisan
+562,BNAVP,Almirah
+563,BND,Kitchen Sink
+564,BNDL,Ganna Kisan
+565,BNSKP,Pan
+566,BPKP,Crane
+567,BPSJP,Gas Cylinder
+568,BRKP(D),Bat
+569,BRM,BENCH
+570,BRP,Triangle
+571,BRPPA,Slate
+572,BRSP,Basket containing Fruits
+573,BSHSP,Ganna Kisan
+574,BSKRP,Helicopter
+575,BSPM,Cot
+576,BSSPA,Air Conditioner
+577,BSUSP,Truck
+578,BTARP,Crane
+579,BTP,Auto- Rickshaw
+580,BUNKD,Bottle
+581,BYPP,Letter Box
+582,CDF,Helicopter
+583,CHALP,Tyres
+584,CHKAP,Hat
+585,COAP,Stumps
+586,CVGRP,Helmet
+587,DAMK,Water Melon
+588,DCLF,Whistle
+589,DJHP,Ludo
+590,DKSP,CHESS BOARD
+591,DMSK,Ring
+592,DPI,Punching Machine
+593,DPIN,Punching Machine
+594,DSPVAD,Harmonium
+595,DSSP,Tractor Chalata Kisan
+596,DUUK,Lunch Box
+597,EP,Tractor Chalata Kisan
+598,ESP,Ganna Kisan
+599,FDLP,DIAMOND
+600,FIP,Helmet
+601,FJP,CHAPATI ROLLER
+602,FPI,Hat
+603,GAGUP,Sewing Machine
+604,GJNP,Gift Pack
+605,GJPP,Pen Stand
+606,GPI,Lady Finger
+607,HAMS,Telephone
+608,HAPA,Ring
+609,HBP,Ganna Kisan
+610,HCP,Tractor Chalata Kisan
+611,HIMJKP,Apple
+612,HMRD,Gift Pack
+613,HMSKP,Whistle
+614,HSP,Tractor Chalata Kisan
+615,HSS,DIAMOND
+616,HUSP,Bread
+617,ICF,Grapes
+618,IDRP,Battery Torch
+619,IICR,Telephone
+620,IMK,Football
+621,INCP,Ganna Kisan
+622,INDPP,Helicopter
+623,IPBP,Trumpet
+624,IRNP,Winnower
+625,JAAP,Tractor Chalata Kisan
+626,JAC,Ganna Kisan
+627,JAJGP,Mike
+628,JANADIP,Dolli
+629,JANKRPR,Bat
+630,JANSAPP,COMPUTER
+631,JAPL,HOCKEY & BALL
+632,JASD,Tractor
+633,JASP,Dish Antenna
+634,JASSP,CARPET
+635,JASWP,Walking Stick
+636,JD,Cot
+637,JDL,Football Player
+638,JGHTP,Mike
+639,JHBHP,Pen Stand
+640,JJJKP,Shoe
+641,JKIP,Tractor Chalata Kisan
+642,JKPP,Pot
+643,JKPPAP,Battery Torch
+644,JKPS,Tractor Chalata Kisan
+645,JLOKP,Apple
+646,JNJP,Chappals
+647,JNP,Glass Tumbler
+648,JNSMP,Neck Tie
+649,JP,Tractor Chalata Kisan
+650,JPD,Toffees
+651,JRVP,Walking Stick
+652,JSP,Sewing Machine
+653,JSVP,Key
+654,JTVP,Sewing Machine
+655,KARASP,Mike
+656,KBD,Plastering Trowel
+657,KEC,Television
+658,KHSNP,Shoe
+659,KJP,COCONUT FARM
+660,KKJHS,Helicopter
+661,KKMP,Bread Toaster
+662,KMSP,Nail Cutter
+663,KPJP,Tractor Chalata Kisan
+664,KPOI,Iron
+665,KPPR,Sewing Machine
+666,KPPU,Saw
+667,KRUP,Chappals
+668,KSRP,Chappals
+669,KSRSP,Ganna Kisan
+670,LAJSP,Carrom Board
+671,LCD,Tyres
+672,LIP,Letter Box
+673,LJGP,Mike
+674,LJSPTY,Clip
+675,LJVM,Cake
+676,LKSGM,Balloon
+677,LOGAP,Matchbox
+678,LOKJANP,Whistle
+679,LSD,Helmet
+680,LTSP,Auto- Rickshaw
+681,MAHKRS,DIAMOND
+682,MANJP,Bead Necklace
+683,MANKP,Soap Dish
+684,MANPA,Tooth Brush
+685,MARD,Boat with Man and Sail
+686,MDKMGPH,Bangles
+687,MIMM,Gas Cylinder
+688,MKAT,Telephone
+689,MKDVP,Gas Cylinder
+690,MLJK,Laptop
+691,MLPOIRF,Tractor Chalata Kisan
+692,MNF,Star
+693,MNM,Battery Torch
+694,MNVP,Cup & Saucer
+695,MPEP,Bicycle
+696,MPJVP,Pressure Cooker
+697,MPOI,Whistle
+698,MPP,Telephone
+699,MSHP,Refrigerator
+700,MSJP,Stool
+701,MSKK,Balloon
+702,MYSP,Bottle
+703,NABMUP,Gift Pack
+704,NALAP,Glass Tumbler
+705,NAPT,BELT
+706,NATJUP,Tractor Chalata Kisan
+707,NATWOMP,Gas Stove
+708,NAVAP,Stethoscope
+709,NAWPP,Mike
+710,NDDHP,Battery Torch
+711,NDPOI,Pen Stand
+712,NDPP,Globe
+713,NED,Bat
+714,NEINDP,Walking Stick
+715,NFFF,CUTTING PLIERS
+716,NIDP,Auto- Rickshaw
+717,NIRBHP,Pencil Box
+718,NJANP,Drill Machine
+719,NJP,Hour Glass
+720,NNKP,Plastering Trowel
+721,NNMP,Ganna Kisan
+722,NPRP,Tractor Chalata Kisan
+723,NPSF,Petrol Pump
+724,NRCONG,Boat with Man and Sail
+725,NRCP,Scissors
+726,NSBHP,Ganna Kisan
+727,NSCBRAP,Auto- Rickshaw
+728,NTK,Ganna Kisan
+729,NVSP,Gas Cylinder
+730,OPD,Boat with Man and Sail
+731,PDP,Ink Pot & Pen
+732,PHJSP,Whistle
+733,PHSP,Ganna Kisan
+734,PJSP,Road Roller
+735,PLM,Man Blowing Turha
+736,PMP,Batsman
+737,PMPT,Batsman
+738,PNP,COCONUT FARM
+739,PPID,Table
+740,PRISMP,DIAMOND
+741,PRJP,Ring
+742,PRSHP,Helicopter
+743,PRSTP,Syringe
+744,PSPL,Key
+745,PSPU,Whistle
+746,PUDEP,Tractor Chalata Kisan
+747,PUJP,Violin
+748,PUNEKP,Key
+749,PUNP,Helmet
+750,RABSP,Telephone
+751,RACHEP,Diesel Pump
+752,RADM,Cot
+753,RAHIS,Helicopter
+754,RAIM,Whistle
+755,RAJADP,Tractor Chalata Kisan
+756,RAJPT,Basket containing Fruits
+757,RAJSPTY,Telephone
+758,RAJUP,Walking Stick
+759,RAKRD,Door Bell
+760,RANP,Walking Stick
+761,RAPI,Helicopter
+762,RAPTY,Shoe
+763,RASAP,Cup & Saucer
+764,RASHLSP,DIAMOND
+765,RASJGP,CHESS BOARD
+766,RASLP,COCONUT FARM
+767,RASMARP,Bat
+768,RBJJP,Colour Tray & Brush
+769,RBP,Ganna Kisan
+770,RD,Latch
+771,RDU,Matchbox
+772,REALDP,Pen Nib with Seven Rays
+773,RGOP,Tractor Chalata Kisan
+774,RHSP,Laptop
+775,RJANPTY,Cup & Saucer
+776,RJANSWP,Pineapple
+777,RJAPU,Gas Stove
+778,RJBP,Cauliflower
+779,RJBVP,Helicopter
+780,RJNPTY,Sewing Machine
+781,RJPD,FLUTE
+782,RJSBHP,COCONUT FARM
+783,RJSNP,Coat
+784,RJSPS,COCONUT FARM
+785,RLTP,Tyres
+786,RMEP,Tractor Chalata Kisan
+787,RMGLMP,BUCKET
+788,RMMP,Matchbox
+789,RMPOI,Pot
+790,RNNBP,Tennis Racket & Ball 
+791,RPB,BOX
+792,RPI(KM),Camera
+793,RPIK,Cup & Saucer
+794,RPIR,Helicopter
+795,RPP,Air Conditioner
+796,RPSN,DIAMOND
+797,RPWP,Cup & Saucer
+798,RRS,Gas Cylinder
+799,RSDAL,Sewing Machine
+800,RSJVP,Balloon
+801,RSP(S),Battery Torch
+802,RSPSR,Truck
+803,RSTSAHP,Helmet
+804,RSVP,Trumpet
+805,RTAMP,Electric Pole
+806,RTBHP,Tiller
+807,RTJPS,Saw
+808,RTORP,Auto- Rickshaw
+809,RTSGP,Envelope
+810,RVYP,Peas
+811,RVZP,CHESS BOARD
+812,SAAFP,Brush
+813,SABHP,Camera
+814,SABJANP,Electric Pole
+815,SACP,Room Cooler
+816,SADSP,Auto- Rickshaw
+817,SADT,Farmer Ploughing Within Square
+818,SAJP,Hat
+819,SAKAP,Balloon
+820,SAKSP,Saw
+821,SANS,Auto- Rickshaw
+822,SANVP,Pineapple
+823,SAPRP,Electric Pole
+824,SARAPA,Sewing Machine
+825,SATBP,Black Board
+826,SATKP,Pan
+827,SAVIPA,Cot
+828,SBM,Television
+829,SBSPSP,Robot
+830,SDC,Hat
+831,SDP(MP),Punching Machine
+832,SDSP,Ganna Kisan
+833,SDU,Wall Hook
+834,SFP,Hat
+835,SGUP,COMPUTER
+836,SHF,Latch
+837,SJDD,Ganna Kisan
+838,SJPI,Tiller
+839,SJPT,Pan
+840,SJSMP,Laptop
+841,SJVP,Apple
+842,SKD,Scissors
+843,SKPP,FLUTE
+844,SLDP,Batsman
+845,SMARTIP,DIAMOND
+846,SMFB,Crane
+847,SNP,Glass Tumbler
+848,SOJP,Pressure Cooker
+849,SPAKP,Swing
+850,SPL,Tractor Chalata Kisan
+851,SPRP,Bat
+852,SSBD,Key
+853,STBP,Pressure Cooker
+854,STBSP,Ganna Kisan
+855,STPI,COCONUT FARM
+856,SUCI(C),Battery Torch
+857,SUSP,Glass Tumbler
+858,SUTF,Telephone
+859,SVJN,Tractor Chalata Kisan
+860,SVJSP,Bicycle Pump
+861,SWABP,Pen Nib with Seven Rays
+862,SWAJANPA,Swing
+863,SWAP,Telephone
+864,SWBI,Whistle
+865,TELYS,Pot
+866,TGPJP,Telephone
+867,TJS,BOX
+868,TMC(M),Auto- Rickshaw
+869,TNLK,Ring
+870,TNRMPI,Gas Stove
+871,TOP,Stumps
+872,TRIPP,Battery torch
+873,TSP,Mike
+874,TTNP,Tractor Chalata Kisan
+875,UBM,FLUTE
+876,UDFS,Frying Pan
+877,UKDD,Electric Pole
+878,UKKD,Chair
+879,UPJP,Auto- Rickshaw
+880,UPNSE,Gas Cylinder
+881,UPPL,Tractor Chalata Kisan
+882,USIP,Tiller
+883,UTPP,Television
+884,UTSAP,Boat with Man and Sail
+885,VBA,Cup & Saucer
+886,VCSMP,Tiller
+887,VIPTY,Air Conditioner
+888,VJNP,Ring
+889,VMMKT,Key
+890,VMSKP,Skipping Rope
+891,VPI,Gas Cylinder
+892,VPP,Phone Charger
+893,VSIP,Boat with Man and Sail
+894,WAP,Boat with Man and Sail
+895,YJJP,Pendulum
+896,YKP,Water Melon
+897,YSRPP,Ring
+898,YVP,Tractor Chalata Kisan
