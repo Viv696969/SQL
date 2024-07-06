@@ -138,5 +138,64 @@ from cte1
 order by diff desc 
 limit 5;
 
+with cte as (
+select pc_id,party_id,sum(total_votes) as votes 
+from results_2014
+group  by pc_id,party_id
+),
+cte1 as (
+select pc_id,party_id,sum(total_votes) as votes 
+from results_2019
+group  by pc_id,party_id
+),cte_final  as (
+select cte.pc_id,cte.party_id,cte1.votes-cte.votes as vote_diff 
+ from cte join cte1
+on cte.pc_id=cte1.pc_id and cte1.party_id=cte.party_id
+where cte1.votes>cte.votes
+order by vote_diff desc 
+),cte_last as (
+select *,
+dense_rank() over(partition by pc_id order by vote_diff desc) as `rank`,
+sum(vote_diff) over(partition by pc_id order by vote_diff desc) as vote_sum
+from cte_final
+)
+select * from cte_last where `rank` in (1,2)
+order by vote_sum desc;
+
+
+select pc_name,sum(total_votes) as nota_votes from results_2014
+join pc on pc.pc_id=results_2014.pc_id
+where candidate is 
+null
+group by pc_name
+order by nota_votes desc
+limit 5
+;
+
+select pc_name,sum(total_votes) as nota_votes from results_2019
+join pc on pc.pc_id=results_2019.pc_id
+where candidate='NOTA'
+group by pc_name
+order by nota_votes desc
+limit 5
+;
+
+with cte as (
+select state_id,party_id,total_votes,
+sum(total_votes) over(partition by state_id) as sum_for_state
+ from by_state_and_party_2019
+ ),cte2 as (
+ select state_id,party_id,(total_votes/sum_for_state)*100 as vote_contro from cte
+  having vote_contro <10
+ order by vote_contro desc
+ ),
+ cte_parties as (
+ select distinct party_id from cte2
+ )
+select distinct pc_name
+from results_2019 join pc 
+on pc.pc_id=results_2019.pc_id
+where party_id in (select party_id from cte_parties);
+--  select distinct party_id from cte2;
 
 
