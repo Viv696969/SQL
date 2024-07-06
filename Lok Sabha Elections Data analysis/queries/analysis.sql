@@ -106,4 +106,37 @@ order by `%difference` desc
 limit 10;
 
 
+with cte as (
+select candidate,sum(total_votes) as votes from results_2014
+where candidate is not null
+group by candidate
+order by votes desc
+),cte1  as (
+select *,
+lead(votes) over() as runner_up_votes
+ from cte
+ )
+select candidate,votes-runner_up_votes as diff
+from cte1
+order by diff desc 
+limit 5;
+
+
+
+with cte as (
+select candidate,sum(total_votes) as votes from results_2019
+where candidate is not null and  candidate!='NOTA'
+group by candidate
+order by votes desc
+),cte1  as (
+select *,
+lead(votes) over() as runner_up_votes
+ from cte
+ )
+select candidate,votes-runner_up_votes as diff
+from cte1
+order by diff desc 
+limit 5;
+
+
 
