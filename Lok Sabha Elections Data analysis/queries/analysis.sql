@@ -211,5 +211,80 @@ sum(total_votes)  ,max(total_electors)
  group by state_id,pc_id
  order by state_id,pc_id;
  
+with cte as ( 
+select party_id,sum(total_votes) as `total_votes_2014` 
+from by_state_and_party_2014
+group by party_id
+order by `total_votes_2014` desc
+),
+cte_2014 as 
+(
+	select party_id,total_votes_2014*100/sum(total_votes_2014) over() as `vote%_2014`
+    from cte
+    order by `vote%_2014` desc
+    
+),
+cte_2 as (
+	select party_id,sum(total_votes) as `total_votes_2019` 
+from by_state_and_party_2019
+group by party_id
+order by `total_votes_2019` desc
+),
+cte_2019 as (
+	select party_id,total_votes_2019*100/sum(total_votes_2019) over() as `vote%_2019`
+    from cte_2
+    order by `vote%_2019` desc
+)
+select pp.party, `vote%_2014`,`vote%_2019` from cte_2014 join cte_2019 
+on cte_2014.party_id=cte_2019.party_id join party pp on pp.party_id=cte_2019.party_id
+order by `vote%_2014` desc 
+limit 5;
+
+with cte as ( 
+select state_id,party_id,sum(total_votes) as `total_votes_2014` 
+from by_state_and_party_2014
+group by state_id,party_id
+order by state_id desc
+),cte_2014 as 
+(
+	select state_id,party_id,total_votes_2014*100/sum(total_votes_2014) 
+    over(partition by state_id) as `vote%_2014`
+    from cte
+    order by `vote%_2014` desc
+    
+),
+ cte_2 as ( 
+select state_id,party_id,sum(total_votes) as `total_votes_2019` 
+from by_state_and_party_2019
+group by state_id,party_id
+order by state_id desc
+),cte_2019 as 
+(
+	select state_id,party_id,total_votes_2019*100/sum(total_votes_2019) 
+    over(partition by state_id) as `vote%_2019`
+    from cte_2
+    order by `vote%_2019` desc
+    
+),cte_final  as (
+select * 
+,dense_rank() over(partition by state_id order by `vote%_2019`+`vote%_2014` desc) as `rank`
+from cte_2019 c1 join cte_2014 c2 using(state_id,party_id)
+order by state_id,`rank`
+)
+select s.state,p.party,`vote%_2019`,`vote%_2014` from cte_final
+join party p using(party_id) join states s using(state_id)
+where `rank` in (1,2)
+order by s.state ,`rank`
+;
+
+
+
+
+
+
+
+
+
+
  
 
