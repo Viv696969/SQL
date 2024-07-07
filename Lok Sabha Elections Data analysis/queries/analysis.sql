@@ -277,6 +277,19 @@ where `rank` in (1,2)
 order by s.state ,`rank`
 ;
 
+select 
+p.pc_name,total_votes*100/total_electors as `voter turnout ratio`
+ from state_pc_aggregated_2014 join pc p using(pc_id)
+ order by  `voter turnout ratio` desc
+ limit 5;
+
+
+select s.state , sum(total_votes)*100/sum(total_electors) as `voter tunout ratio`
+from state_pc_aggregated_2019 join states s using(state_id)
+group by s.state
+order by  `voter tunout ratio` desc;
+
+
 
 
 
